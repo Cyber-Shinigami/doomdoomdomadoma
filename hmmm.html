@@ -3,66 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ekansh Jain - Introduction</title>
+    <title>Home Sajja - Welcome</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
     <style>
         body {
-            background-color: #000000; /* Black background */
-            color: #FFFFFF; /* White text color */
-            font-family: Arial, sans-serif; /* Choose your preferred font */
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+        }
+        .header {
+            background-color: #FF0000; /* Red background */
+            color: #FFFFFF; /* White text color */
+            padding: 20px;
+            text-align: center;
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            text-align: center;
         }
         h1 {
-            color: #00FF00; /* Green heading color */
-            font-size: 36px;
-            margin-bottom: 10px;
+            color: #FF0000; /* Red heading color */
         }
         p {
             font-size: 18px;
             line-height: 1.6;
-            margin-bottom: 20px;
         }
-        .profile-img {
-            border-radius: 50%;
-            width: 200px;
-            height: 200px;
-            margin-bottom: 20px;
-        }
-        .social-links {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-        .social-links a {
-            color: #FFFFFF;
-            font-size: 24px;
-            margin: 0 10px;
+        .btn {
+            background-color: #FF0000; /* Red button color */
+            color: #FFFFFF; /* White text color */
+            padding: 10px 20px;
             text-decoration: none;
-            transition: color 0.3s ease;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
-        .social-links a:hover {
-            color: #00FF00; /* Green hover color */
+        .btn:hover {
+            background-color: #CC0000; /* Darker red on hover */
         }
     </style>
 </head>
 <body>
+    <div class="header">
+        <h1>Welcome to Home Sajja</h1>
+        <p>Your destination for all things home-related</p>
+    </div>
     <div class="container">
-        <img src="profile_picture.jpg" alt="Ekansh Jain" class="profile-img">
-        <h1>Welcome to Ekansh Jain's Introduction Website</h1>
-        <p>Hello, I'm Ekansh Jain. I'm a passionate web developer based in [Your Location]. Welcome to my introduction website. Here, you can learn more about me and my projects.</p>
-        <p>Feel free to reach out to me at [Your Email Address] or connect with me on:</p>
-        <div class="social-links">
-            <a href="[Your Social Media Profile 1 URL]" target="_blank">Twitter</a>
-            <a href="[Your Social Media Profile 2 URL]" target="_blank">Instagram</a>
-            <a href="[Your Social Media Profile 3 URL]" target="_blank">LinkedIn</a>
-            <!-- Add more social media links as needed -->
-        </div>
+        <h2>About Us</h2>
+        <p>At Home Sajja, we strive to provide the best selection of home products to make your living space more comfortable and stylish. From furniture to decor, we have everything you need to turn your house into a home.</p>
+        <h2>Our Products</h2>
+        <p>Explore our wide range of products:</p>
+        <ul>
+            <li>Furniture</li>
+            <li>Home Decor</li>
+            <li>Appliances</li>
+            <li>Lighting</li>
+            <li>Outdoor Living</li>
+        </ul>
+        <a href="shop.html" class="btn">Shop Now</a>
     </div>
 </body>
 </html>
